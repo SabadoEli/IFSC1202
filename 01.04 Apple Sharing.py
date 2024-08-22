@@ -1,0 +1,6 @@
+apples = int (input("Numebr of Apples: "))
+students = int (input("Number of students: "))
+Remaining_Apples = (apples % students)
+Apples_per_Student = (apples // students)
+print(Remaining_Apples + "Remaning Apples")
+print("Apples Per Student: " + Apples_per_Student)
