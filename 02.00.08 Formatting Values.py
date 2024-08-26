@@ -1,0 +1,1 @@
+print("{:4d}",format(42))
