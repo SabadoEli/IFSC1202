@@ -1,0 +1,4 @@
+x = int(input("Enter a Value: "))
+if x < 0:
+    x = -x
+(print(x)

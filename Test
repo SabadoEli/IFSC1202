@@ -1,0 +1,23 @@
+# Prompt the user for input
+days = int(input("Enter the number of days: "))
+
+# Initialize constants
+days_per_year = 365
+days_per_week = 7
+
+# Calculate years
+years = days // days_per_year
+
+# Calculate remaining days
+remaining_days = days % days_per_year
+
+# Calculate weeks
+weeks = remaining_days // days_per_week
+
+# Calculate final remaining days
+days = remaining_days % days_per_week
+
+# Output the results in the desired format
+print("Years:", years)
+print("Weeks:", weeks)
+print("Days:", days)
