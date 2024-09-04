@@ -1,3 +1,2 @@
-firstname = input("First Name: ")
-print("Hello", firstname)
-print("How are you doing?")
+import math
+print(math.sqrt(9))
