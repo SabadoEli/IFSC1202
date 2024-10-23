@@ -5,6 +5,7 @@ def load_distances(input_file):
         reader = csv.reader(file)
         distances = list(reader)
     return distances
+    
 
 def print_distances(distances):
     for row in distances:
@@ -32,3 +33,6 @@ def main():
     else:
         distance = distances[from_index][to_index]
         print(f"{from_city} to {to_city} - {distance} miles")
+
+if __name__ == "__main__":
+    main()
